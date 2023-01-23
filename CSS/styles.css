@@ -118,7 +118,7 @@ button:hover {
     margin: 0 auto;
 }
 .section2 > div > div{
-    padding: 8rem;
+    padding: 8rem 1rem;
 
 }
 
@@ -140,13 +140,16 @@ button:hover {
     background-color: #3882f6;
     color: white;
     border-radius: 0.5rem;
-    display: flex;
     
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
     margin: 1rem auto;
-    padding: 1rem 5rem;
+    padding: 2rem 5rem;
+    gap: 1rem;
 }
 .section3 > div > div{
-    padding: 2rem;
+    /* padding: 2rem; */
     flex: 3;
 }
 .section3 > div > .button{
@@ -159,6 +162,8 @@ button:hover {
 
 .footer {
     background-color: #1f2937;
+    color: #ffffffc7;
     text-align: center;
-    padding: 2rem;
+    padding: 1rem 2rem;
+    font-size: 0.7rem;
 }
