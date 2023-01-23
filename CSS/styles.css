@@ -145,7 +145,7 @@ button:hover {
     align-items: center;
     justify-content: space-around;
     margin: 1rem auto;
-    padding: 2rem 5rem;
+    padding: 2rem 1rem;
     gap: 1rem;
 }
 .section3 > div > div{
